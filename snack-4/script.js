@@ -7,3 +7,9 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+posts.map((nomiautori) => {
+  let {author} = posts
+  let gruppoNomi = nomiautori.author
+  console.log(gruppoNomi);
+});
