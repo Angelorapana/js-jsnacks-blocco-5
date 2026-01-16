@@ -17,8 +17,8 @@ let zucchineLunghe = []
 let zucchineRimanenti = []
 
 zucchine.forEach((ricercaZucchine)=> {  // Ho una variabile locale e devo solo scorrere l'array quindi utilizzo foreach
-    if (ricercaZucchine >= 15){
-      zucchineLungheLunghe.push(ricercaZucchine)}
+    if (ricercaZucchine.length >= 15){
+      zucchineLunghe.push(ricercaZucchine)}
       else {
         zucchineRimanenti.push(ricercaZucchine)}
   });
