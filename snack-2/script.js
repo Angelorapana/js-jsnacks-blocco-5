@@ -6,3 +6,7 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+people.forEach((nomiDelGruppo) => {   //dato il paramentro al metodo foreach stampo in console il suo valore(.nome)
+  console.log(nomiDelGruppo.name);
+});
