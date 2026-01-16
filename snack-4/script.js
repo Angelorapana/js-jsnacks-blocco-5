@@ -8,8 +8,8 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
-posts.map((nomiautori) => {
-  let {author} = posts
-  let gruppoNomi = nomiautori.author
-  console.log(gruppoNomi);
+posts.map((nomiautori) => {    //introduco il metodo
+  let {author} = posts          // mi prendo i dati
+  let gruppoNomi = nomiautori.author   // li assegno a una variabile
+  console.log(gruppoNomi);    //stampo la nuova variabile
 });
