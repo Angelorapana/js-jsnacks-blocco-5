@@ -13,3 +13,6 @@ posts.map((nomiautori) => {    //introduco il metodo
   let gruppoNomi = nomiautori.author   // li assegno a una variabile
   console.log(gruppoNomi);    //stampo la nuova variabile
 });
+
+const nomi = posts.map((autori) => autori.author)
+console.log(nomi)
